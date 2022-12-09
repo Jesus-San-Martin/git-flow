@@ -9,3 +9,21 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#BarraNavegador{
+    height: 5vh;
+    background-color: aquamarine;
+    width:33%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+
+#BarraNavegador ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;    
+}
